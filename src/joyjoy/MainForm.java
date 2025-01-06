@@ -187,6 +187,7 @@ public class MainForm extends javax.swing.JFrame {
 
         int priceType = PriceTypeCB.getSelectedIndex();
 
+        if(QouteList==null)return;
         for (int i = 0; i < QouteList.size(); i++) {
 
             int qty = Integer.parseInt(model.getValueAt(i, 2).toString());

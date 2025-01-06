@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 
 public class DB {
     
-    public static String excel_path = "C:\\Users\\SON\\Desktop\\JB DB.xlsx";
+    public static String excel_path = "C:\\Users\\SON\\Documents\\JB DB.xlsx";
     public static String db_path = "C:\\Users\\SON\\Documents\\JOYJOY\\items_db.db";
     
     public static Connection connection() throws Exception {
